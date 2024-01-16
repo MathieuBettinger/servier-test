@@ -1,0 +1,27 @@
+data_pipeline_project/
+|-- src/
+|   |-- __init__.py
+|   |-- data_cleaning/
+|   |   |-- __init__.py
+|   |   |-- drugs_cleaning.py
+|   |   |-- pubmed_cleaning.py
+|   |   |-- clinical_trials_cleaning.py
+|   |-- data_processing/
+|   |   |-- __init__.py
+|   |   |-- data_processor.py
+|   |-- data_pipeline/
+|   |   |-- __init__.py
+|   |   |-- pipeline_builder.py
+|   |-- main.py
+|-- tests/
+|   |-- __init__.py
+|   |-- test_drugs_cleaning.py
+|   |-- test_pubmed_cleaning.py
+|   |-- test_clinical_trials_cleaning.py
+|   |-- test_data_processor.py
+|   |-- test_pipeline_builder.py
+|-- requirements.txt
+|-- Dockerfile
+|-- .gitignore
+|-- .env
+|-- README.md
